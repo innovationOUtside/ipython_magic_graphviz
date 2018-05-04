@@ -13,7 +13,7 @@ Magic methods:
     also: %twopi, %neato, %sdp, %fsdp, and %circo magic families.
 
 Usage:
-    %load_ext gvmagic
+    %load_ext graphviz_magic
 """
 
 
