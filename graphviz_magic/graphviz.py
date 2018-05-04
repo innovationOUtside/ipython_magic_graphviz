@@ -187,8 +187,9 @@ class GraphvizMagics(Magics):
 
 
 def load_ipython_extension(ipython):
+    ip = get_ipython()
     """Load the extension in IPython."""
-    ipython.register_magics(GraphvizMagics)
+    ip.register_magics(GraphvizMagics)
 
 
 def unload_ipython_extension(ipython):
